@@ -24,17 +24,17 @@ warnings.filterwarnings("ignore")
 
 delim = '-----'
 
-labels = pd.read_csv('C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidTarget.csv')
+labels = pd.read_csv('...\\Full Set\\AllAmyloidTarget.csv')
 
 def load_train(path, shuffle):
     
     # Train
     
-    labels = pd.read_csv('C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidTarget.csv')
+    labels = pd.read_csv('...\\Full Set\\AllAmyloidTarget.csv')
     train_datagen = ImageDataGenerator(validation_split=0.2, rescale=None)
     train_gen_flow = train_datagen.flow_from_dataframe(
         dataframe=labels,
-        directory='C:\\Users\\sumad\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidProcessedRGBV2\\',
+        directory='...\\Full Set\\AllAmyloidProcessedRGBV2\\',
         x_col='ID',
         y_col='Value',
         target_size=(224, 224),
@@ -51,11 +51,11 @@ def load_test(path, shuffle):
     
     # Validation/Test
 
-    labels = pd.read_csv('C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidTarget.csv')
+    labels = pd.read_csv('...\\Full Set\\AllAmyloidTarget.csv')
     validation_datagen = ImageDataGenerator(validation_split=0.2, rescale=None)
     test_gen_flow = validation_datagen.flow_from_dataframe(
     dataframe = labels,
-    directory='C:\\Users\\sumad\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidProcessedRGBV2\\',
+    directory='...\\Full Set\\AllAmyloidProcessedRGBV2\\',
     x_col="ID",
     y_col="Value", 
     class_mode="raw", 
@@ -118,7 +118,7 @@ def train_model(model, train_data, test_data, batch_size=32, epochs=60,
 
     return model
 
-path = 'C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\'
+path = '...\\Full Set\\'
 
 # Load training and testing
 train_data = load_train(path, False)
@@ -132,7 +132,7 @@ model = train_model(model, train_data, test_data)
 
 # Save the model
 
-path = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AlzheimersPrognosisDeliverables\\SavedModel4\\"
+path = "...\\SavedModel\\"
 model.save(path + '\\EffNetV2SModel.h5')
 model.save_weights(path + '\\EffNetV2SWeights.h5')
 
