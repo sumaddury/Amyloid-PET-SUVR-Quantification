@@ -120,13 +120,13 @@ def extract_clinicals(inCsv):
 
     return lol
 
-IDpath = "C:\\Users\\sumad\\Downloads\\idaSearch_8_03_2022 (1).csv"
+IDpath = "...\\idaSearch_8_03_2022.csv"
 
-SUVRpath = "C:\\Users\\sumad\\Downloads\\UCBERKELEYAV45_04_26_22 (2) - UCBERKELEYAV45_04_26_22 (2).csv"
+SUVRpath = "...\\UCBERKELEYAV45_04_26_22 - UCBERKELEYAV45_04_26_22.csv"
 
-SUVRoutpath = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AllAmyloidTarget.csv"
+SUVRoutpath = "...\\AllAmyloidTarget.csv"
 
-IDoutpath = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AllAmyloidIDs.csv"
+IDoutpath = "...\\AllAmyloidIDs.csv"
 
 
 IDlist = find_unique_id(IDpath)
@@ -159,8 +159,8 @@ with outFile2:
 outFile2.close()
 
 
-clinicalpath = "C:\\Users\\sumad\\Downloads\\idaSearch_8_11_2022 (1).csv"
-clinicaloutpath = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AllAmyloidClinicals.csv"
+clinicalpath = "...\\idaSearch_8_11_2022.csv"
+clinicaloutpath = "...\\AllAmyloidClinicals.csv"
 
 clinicallol = extract_clinicals(clinicalpath)
 
