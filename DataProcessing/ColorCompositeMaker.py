@@ -6,7 +6,7 @@ import glob
 import numpy as np
 from PIL import Image
 
-DCMROOT = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\AllAmyloidProcessedSeperated"
+DCMROOT = "...\\AllAmyloidProcessedSeperated"
 dcmPathName = os.path.join(DCMROOT, "*")
 dcmDirList = glob.glob(dcmPathName)
 
@@ -23,7 +23,7 @@ for d in dcmDirList:
 print(len(dcmList))
 
 
-IMGROOT = "C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\AllAmyloidProcessedSeperatedPNG"
+IMGROOT = "...\\AllAmyloidProcessedSeperatedPNG"
 if os.path.exists(IMGROOT):
     shutil.rmtree(IMGROOT) 
 os.makedirs(IMGROOT)
@@ -50,7 +50,7 @@ for f in dcmList:
     # Convert to uint
         image_2d_scaled = np.uint8(image_2d_scaled)
     #IMGROOT+"\\"+f+"Slice"+str(count)
-        with open(os.path.join("C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\AllAmyloidProcessedSeperatedPNG",f,"Slice"+imageFile[97:99]+'.png'), 'wb') as png_file:
+        with open(os.path.join("...\\AllAmyloidProcessedSeperatedPNG",f,"Slice"+imageFile[97:99]+'.png'), 'wb') as png_file:
             w = png.Writer(shape[1], shape[0], greyscale=True)
             w.write(png_file, image_2d_scaled)
 
@@ -69,8 +69,8 @@ def load_images_to_single(path_a, path_b, path_c, size=(160, 160)):
 
     return img_rgb
 
-masterPath = "C:\\Users\\sumad\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\AllAmyloidProcessedSeperatedPNG"
-outPath = "C:\\Users\\sumad\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE ALL\\Full Set\\AllAmyloidProcessedRGBV2"
+masterPath = "...\\AllAmyloidProcessedSeperatedPNG"
+outPath = "...\\Full Set\\AllAmyloidProcessedRGBV2"
 
 for root, dirs, files in os.walk(masterPath):
     imgroot, imgdirs = root, dirs
