@@ -10,8 +10,8 @@ import seaborn as sns
 from sklearn.metrics import mean_squared_error
 
 
-train_df = pd.read_csv("C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE All\\Full Set\\GBDTTrain.csv")
-test_df = pd.read_csv("C:\\Users\\sumad\\OneDrive - San José Unified School District\\Documents\\AMYLOID DATASET COMPLETE All\\Full Set\\GBDTTest.csv")
+train_df = pd.read_csv("...\\Full Set\\GBDTTrain.csv")
+test_df = pd.read_csv("...\\Full Set\\GBDTTest.csv")
 
 
 # Fill in missing values
