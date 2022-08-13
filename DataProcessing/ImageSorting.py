@@ -2,11 +2,11 @@ import os
 import shutil
 import copy
 
-masterDrive = "C:\\"
-masterPath = os.path.join(masterDrive, "Users", "sumad", "Downloads", "AllAmyloidProcessed")
+masterDrive = "C:\\..."
+masterPath = os.path.join(masterDrive, "AllAmyloidProcessed")
 
-outDrive = "C:\\"
-outPath = os.path.join(outDrive, "Users", "sumad", "OneDrive - San José Unified School District", "Documents", "AMYLOID DATASET COMPLETE ALL", "AllAmyloidProcessedSeperated")
+outDrive = "C:\\.."
+outPath = os.path.join(outDrive, "AllAmyloidProcessedSeperated")
 
 y = []
 for root, dirs, files in os.walk(masterPath):
