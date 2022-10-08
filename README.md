@@ -14,4 +14,4 @@ Research is protected under a CC-BY-NC-ND 4.0 International license.
 
 Notes:
 All data is available at the [Alzheimer's Disease Neuroimaging Initiative](https://adni.loni.usc.edu/).
-Code was built by Sucheer Madddury.
+Code was built by Sucheer Maddury.
