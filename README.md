@@ -2,7 +2,7 @@ Code and data for :
 ### _Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis_
 ***
 
-Authors: Sucheer Maddury<sup>1</sup>, Krish Desai<sup>1</sup>
+Authors: Sucheer Maddury<sup>1</sup>, Krish Desai<sup>1</sup><br>  
  <sup>1</sup> Leland High School, San Jose, California, USA<br>  
 Please address correspondence to Sucheer Maddury; e-mail: <sumaddurycollege2024@gmail.com>
 
