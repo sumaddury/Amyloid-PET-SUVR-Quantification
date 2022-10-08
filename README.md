@@ -16,4 +16,4 @@ Notes:
 All data is available at the [Alzheimer's Disease Neuroimaging Initiative](https://adni.loni.usc.edu/).
 Code was built by Sucheer Maddury.
 
-Cite as: Sucheer M Maddury, Krish S Desai _medRxiv_ 2022.10.04.22280712; doi: https://doi.org/10.1101/2022.10.04.22280712
+Cite as: Maddury SM, Desai KS. Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis. medRxiv; 2022. DOI: 10.1101/2022.10.04.22280712.
