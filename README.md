@@ -1,5 +1,5 @@
 Code and data for :
-### _Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis_
+## _Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis_
 ***
 
 Authors: Sucheer Maddury<sup>1</sup>, Krish Desai<sup>1</sup><br>  
