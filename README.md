@@ -12,8 +12,8 @@ __Abstract__    Amyloid deposition is a vital biomarker in the process of Alzhei
 
 Research is protected under a CC-BY-NC-ND 4.0 International license.
 
-Notes:
+__Notes:__
 All data is available at the [Alzheimer's Disease Neuroimaging Initiative](https://adni.loni.usc.edu/).
 Code was built by Sucheer Maddury.
 
-Cite as: Maddury SM, Desai KS. Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis. _medRxiv_; 2022. DOI: 10.1101/2022.10.04.22280712.
+__Cite as:__ Maddury SM, Desai KS. Using Deep Learning to Determine Amyloid Deposition through PET and Clinical Data for Alzheimer's Prognosis. _medRxiv_; 2022. DOI: 10.1101/2022.10.04.22280712.
