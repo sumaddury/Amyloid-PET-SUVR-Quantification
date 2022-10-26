@@ -1,0 +1,10 @@
+ls
+   2 pip install flask
+   3 pip install --upgrade pip
+  27 pip install tensorflow
+  28 pip install numpy
+  29 pip install flask
+  30 pip install werkzeug
+  31 pip install numpy
+  62 pip install pillow
+  66 pip install scipy
